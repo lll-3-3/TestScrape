@@ -1,0 +1,34 @@
+{
+  "name": "Nuvio Output Plugin",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "cineby",
+      "name": "Cineby",
+      "description": "Cineby movie and TV streaming catalog provider",
+      "version": "1.0.0",
+      "author": "OpenAI",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/cineby.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://www.cineby.at/favicon.ico",
+      "contentLanguage": ["en", "ar"]
+    },
+    {
+      "id": "miruro",
+      "name": "Miruro",
+      "description": "Miruro anime streaming catalog provider",
+      "version": "1.0.0",
+      "author": "OpenAI",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/miruro.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://www.miruro.tv/favicon.ico",
+      "contentLanguage": ["en", "ja"]
+    }
+  ]
+}
